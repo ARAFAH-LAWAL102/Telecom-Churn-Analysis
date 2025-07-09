@@ -2,7 +2,7 @@
 # Project Background
 The telecom company has been operating for several years, offering voice, data, and roaming services across various regions. With a growing customer base and rising competition, the company faces increasing customer churn. This project aims to identify factors contributing to churn, using SQL-based data cleaning and EDA, and translate these insights into a Power BI dashboard for strategic decision-making.
 
-# Insights and recommendations are provided on the following key areas:
+# Insights and Recommendations are provided on the following key areas:
 
 1) Churn Rate and Customer Behavior
 
