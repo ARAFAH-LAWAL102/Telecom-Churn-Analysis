@@ -14,7 +14,7 @@ The telecom company has been operating for several years, offering voice, data, 
 
 The SQL queries used to inspect and clean the data can be found here: [Script](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/01_create_view_sql.sql)
 
-SQL queries for business questions: EDA SQL Queries
+SQL queries for business questions: [EDA SQL Queries](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/02_eda_queries.sql)
 
 Dataset Used: [Telecom Churn Dataset](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/telecom_churn.csv)
 
