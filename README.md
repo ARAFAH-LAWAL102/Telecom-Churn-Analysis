@@ -15,6 +15,7 @@ The telecom company has been operating for several years, offering voice, data, 
 The SQL queries used to inspect and clean the data can be found here: SQL Data Cleaning
 
 SQL queries for business questions: EDA SQL Queries
+[The dataset] (https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/telecom_churn.csv)
 
 The Power BI Dashboard used to visualize churn insights: Dashboard Link
 
