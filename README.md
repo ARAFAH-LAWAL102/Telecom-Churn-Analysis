@@ -18,31 +18,31 @@ SQL queries for business questions: [EDA SQL Queries](https://github.com/ARAFAH-
 
 Dataset Used: [Telecom Churn Dataset](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/telecom_churn.csv)
 
-The Power BI Dashboard used to visualize churn insights: Dashboard Link
+The Power BI Dashboard used to visualize churn insights: [Dashboard Link](https://oouago-my.sharepoint.com/:u:/g/personal/21599716ia_oouagoiwoye_edu_ng/EQQsCEcTnodKtXIh_qFJyoEBh58urTavUMpNqaVV8hJrLA?e=UZpahC)
 
 # Data Structure 
 
-The cleaned dataset includes 3,333 customer records with the following columns:
+- The cleaned dataset includes 3,333 customer records with the following columns:
 
-Churn: 1 if customer left, 0 if retained
+- Churn: 1 if customer left, 0 if retained
 
-AccountWeeks: Tenure in weeks
+- AccountWeeks: Tenure in weeks
 
-ContractRenewal: 1 = renewed, 0 = not renewed
+- ContractRenewal: 1 = renewed, 0 = not renewed
 
-DataPlan: 1 = yes, 0 = no
+- DataPlan: 1 = yes, 0 = no
 
-DataUsage: Monthly data in GB
+- DataUsage: Monthly data in GB
 
-CustServCalls: Number of service calls
+- CustServCalls: Number of service calls
 
-DayMins, DayCalls: Avg daytime minutes/calls
+- DayMins, DayCalls: Avg daytime minutes/calls
 
-MonthlyCharge: Monthly bill
+- MonthlyCharge: Monthly bill
 
-OverageFee: Last 12-month peak overage
+- OverageFee: Last 12-month peak overage
 
-RoamMins: Avg monthly roaming minutes
+- RoamMins: Avg monthly roaming minutes
 
 Initial SQL steps included transforming binary columns to readable labels, binning tenure into ranges, and checking missing/null values.
 
@@ -51,38 +51,38 @@ Initial SQL steps included transforming binary columns to readable labels, binni
 The analysis reveals a churn rate of 14.5%, with the majority of churners having no data plan, multiple service calls, and higher monthly charges and overage fees. Churn was more likely among users who did not renew their contracts and those with 200+ active weeks. Roaming usage was also slightly higher among churners. These insights empower the business to reduce churn by targeting these key segments.
 # PREVIEW
 
-[Dashboard](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/real%20telecom%20dashboard.png)
+![Dashboard](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/real%20telecom%20dashboard.png)
 
 # Insights Deep Dive
 
 Category 1: Churn & Contract Behavior
 
-Churn rate = 14.5% of 3,333 customers
+- Churn rate = 14.5% of 3,333 customers
 
-Most churners had not renewed their contracts
+- Most churners had not renewed their contracts
 
-Customers in the 200+ weeks range churned more than those with longer tenure
+- Customers in the 200+ weeks range churned more than those with longer tenure
 
 Category 2: Data Plan & Usage
 
-83% of churners did not have a data plan
+- 83% of churners did not have a data plan
 
-Data users had lower churn despite higher average usage
+- Data users had lower churn despite higher average usage
 
-Churners had slightly higher average monthly charges ($59)
+- Churners had slightly higher average monthly charges ($59)
 
 Category 3: Call Center & Roaming Metrics
 
-Customers with 5+ service calls had a 61% churn rate in that group
+- Customers with 5+ service calls had a 61% churn rate in that group
 
-Roaming minutes were higher among churners (10.7 vs 10.2 mins/month)
+- Roaming minutes were higher among churners (10.7 vs 10.2 mins/month)
 
 Category 4: Charges & Fees
 
-Churners paid more in overage fees (avg $10.6)
+- Churners paid more in overage fees (avg $10.6)
 
-Monthly charges correlated with churn: higher bills increased likelihood to leave
-# RECOMMENDATION
+- Monthly charges correlated with churn: higher bills increased likelihood to leave
+# RECOMMENDATIONS
 1. Promote Data Plans
 
 From Insight: 83% of churners did not have a data plan.
