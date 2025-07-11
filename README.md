@@ -51,7 +51,7 @@ Initial SQL steps included transforming binary columns to readable labels, binni
 The analysis reveals a churn rate of 14.5%, with the majority of churners having no data plan, multiple service calls, and higher monthly charges and overage fees. Churn was more likely among users who did not renew their contracts and those with 200+ active weeks. Roaming usage was also slightly higher among churners. These insights empower the business to reduce churn by targeting these key segments.
 # PREVIEW
 
-
+[Dashboard](https://github.com/ARAFAH-LAWAL102/Telecom-Churn-Analysis/blob/main/real%20telecom%20dashboard.png)
 
 # Insights Deep Dive
 
